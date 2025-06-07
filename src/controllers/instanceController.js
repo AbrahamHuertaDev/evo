@@ -778,7 +778,7 @@ class InstanceController extends EventEmitter {
         }
         
         // Extraer el número de teléfono del contacto
-        const phoneNumber = message.conversation.meta.sender.phone_number + '@c.us';
+        const phoneNumber = message.conversation.meta.sender.phone_number.replace('+', '') + '@c.us';
         const messageContent = message.conversation.messages[0].content;
 
         if (!phoneNumber || !messageContent) {
