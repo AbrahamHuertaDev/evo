@@ -47,24 +47,15 @@ class InstanceController extends EventEmitter {
                             args: [
                                 '--no-sandbox',
                                 '--disable-setuid-sandbox',
+                                '--disable-gpu',
                                 '--disable-dev-shm-usage',
                                 '--disable-accelerated-2d-canvas',
-                                '--no-first-run',
                                 '--no-zygote',
-                                '--disable-gpu',
-                                '--window-size=1280,720',
-                                '--window-position=0,0',
-                                '--disable-extensions',
-                                '--disable-default-apps',
-                                '--disable-popup-blocking',
-                                '--disable-notifications',
-                                '--disable-web-security',
-                                '--disable-features=IsolateOrigins,site-per-process'
+                                '--single-process',
+                                '--disable-dev-tools',
+                                '--no-first-run',
+                                '--no-default-browser-check',
                             ],
-                            defaultViewport: {
-                                width: 1280,
-                                height: 720
-                            },
                             ignoreHTTPSErrors: true,
                             timeout: 60000
                         },
