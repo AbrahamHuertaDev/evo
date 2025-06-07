@@ -779,12 +779,6 @@ class InstanceController extends EventEmitter {
                 return;
             }
 
-            // Verificar si el cliente está autenticado
-            if (!client.pupPage) {
-                console.log('Cliente de WhatsApp no está autenticado');
-                return;
-            }
-            
             // Extraer el número de teléfono del contacto
             const phoneNumber = message.conversation.meta.sender.phone_number.replace('+', '') + '@c.us';
             const messageContent = message.conversation.messages[0].content;
