@@ -113,70 +113,70 @@ class InstanceController extends EventEmitter {
                         console.log(`\n=== ${instance.name} CONECTADA ===`);
                         await Instance.updateInstanceStatus(instance.id, 'connected');
                         emitInstanceEvent('status', instance.id, { status: 'connected' });
-                    });
-
-                    client.on('disconnected', async (reason) => {
-                        console.log(`\n=== ${instance.name} DESCONECTADA ===`);
-                        console.log('Razón:', reason);
-                        await Instance.updateInstanceStatus(instance.id, 'disconnected');
-                        emitInstanceEvent('status', instance.id, { status: 'disconnected' });
-                    });
-
-                    client.on('auth_failure', async (error) => {
-                        console.log(`\n=== ERROR DE AUTENTICACIÓN EN ${instance.name} ===`);
-                        console.log('Error:', error);
-                        await Instance.updateInstanceStatus(instance.id, 'auth_failed');
-                        emitInstanceEvent('status', instance.id, { status: 'auth_failed' });
-                    });
-
-                    // Configurar evento de mensajes
-                    client.on('message', async (message) => {
-                        console.log('MENSAJE EVENTO DISPARADO', message);
-                        try {
-                            console.log(`\n=== MENSAJE RECIBIDO EN ${instance.name} ===`);
-                            console.log('De:', message.from);
-                            console.log('Contenido:', message.body);
-
-                            // Emitir evento al frontend
-                            emitInstanceEvent('message', instance.id, {
-                                from: message.from,
-                                body: message.body,
-                                timestamp: message.timestamp,
-                                instanceId: instance.id,
-                                instanceName: instance.name
-                            });
-
-                            // Obtener la instancia actualizada
-                            const currentInstance = await Instance.getInstance(instance.id);
-                            if (!currentInstance) {
-                                console.error('No se pudo obtener la instancia actualizada');
-                                return;
+                        client.on('disconnected', async (reason) => {
+                            console.log(`\n=== ${instance.name} DESCONECTADA ===`);
+                            console.log('Razón:', reason);
+                            await Instance.updateInstanceStatus(instance.id, 'disconnected');
+                            emitInstanceEvent('status', instance.id, { status: 'disconnected' });
+                        });
+    
+                        client.on('auth_failure', async (error) => {
+                            console.log(`\n=== ERROR DE AUTENTICACIÓN EN ${instance.name} ===`);
+                            console.log('Error:', error);
+                            await Instance.updateInstanceStatus(instance.id, 'auth_failed');
+                            emitInstanceEvent('status', instance.id, { status: 'auth_failed' });
+                        });
+    
+                        // Configurar evento de mensajes
+                        client.on('message', async (message) => {
+                            console.log('MENSAJE EVENTO DISPARADO', message);
+                            try {
+                                console.log(`\n=== MENSAJE RECIBIDO EN ${instance.name} ===`);
+                                console.log('De:', message.from);
+                                console.log('Contenido:', message.body);
+    
+                                // Emitir evento al frontend
+                                emitInstanceEvent('message', instance.id, {
+                                    from: message.from,
+                                    body: message.body,
+                                    timestamp: message.timestamp,
+                                    instanceId: instance.id,
+                                    instanceName: instance.name
+                                });
+    
+                                // Obtener la instancia actualizada
+                                const currentInstance = await Instance.getInstance(instance.id);
+                                if (!currentInstance) {
+                                    console.error('No se pudo obtener la instancia actualizada');
+                                    return;
+                                }
+    
+                                // Enviar mensaje a Chatwoot si la instancia está configurada
+                                if (currentInstance.chatwootInboxId && currentInstance.chatwootApiToken) {
+                                    console.log('Enviando mensaje a Chatwoot...');
+                                    await ChatwootController.handleWhatsAppMessage(message, currentInstance);
+                                } else {
+                                    console.log('Instancia no configurada con Chatwoot');
+                                }
+                            } catch (error) {
+                                console.error('Error al procesar mensaje:', error);
                             }
-
-                            // Enviar mensaje a Chatwoot si la instancia está configurada
-                            if (currentInstance.chatwootInboxId && currentInstance.chatwootApiToken) {
-                                console.log('Enviando mensaje a Chatwoot...');
-                                await ChatwootController.handleWhatsAppMessage(message, currentInstance);
-                            } else {
-                                console.log('Instancia no configurada con Chatwoot');
-                            }
-                        } catch (error) {
-                            console.error('Error al procesar mensaje:', error);
-                        }
+                        });
+    
+                        // Guardar la referencia del cliente
+                        this.bots.set(instance.id, client);
+                        console.log('Cliente guardado en el mapa de instancias');
+                        
+                        // Actualizar estado antes de iniciar
+                        await Instance.updateInstanceStatus(instance.id, 'connecting');
+                        console.log('Estado actualizado a connecting');
+                        
+                        // Iniciar la conexión
+                        console.log('Iniciando cliente...');
+                        await client.initialize();
+                        console.log('Cliente iniciado exitosamente');
                     });
 
-                    // Guardar la referencia del cliente
-                    this.bots.set(instance.id, client);
-                    console.log('Cliente guardado en el mapa de instancias');
-                    
-                    // Actualizar estado antes de iniciar
-                    await Instance.updateInstanceStatus(instance.id, 'connecting');
-                    console.log('Estado actualizado a connecting');
-                    
-                    // Iniciar la conexión
-                    console.log('Iniciando cliente...');
-                    await client.initialize();
-                    console.log('Cliente iniciado exitosamente');
                     
                 } catch (error) {
                     console.error(`\nError al inicializar instancia ${instance.name}:`, error);
@@ -779,6 +779,14 @@ class InstanceController extends EventEmitter {
                 return;
             }
 
+            console.log(client.pupBrowser.pages());
+
+            // Verificar si el cliente está autenticado
+            if (!client.pupPage) {
+                console.log('Cliente de WhatsApp no está autenticado');
+                return;
+            }
+            
             // Extraer el número de teléfono del contacto
             const phoneNumber = message.conversation.meta.sender.phone_number.replace('+', '') + '@c.us';
             const messageContent = message.conversation.messages[0].content;
