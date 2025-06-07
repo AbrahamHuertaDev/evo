@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3001/api'
+  apiUrl: 'https://evolution.pixelitystudios.com/api'
 }; 
