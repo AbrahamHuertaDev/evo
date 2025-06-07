@@ -764,6 +764,26 @@ class InstanceController extends EventEmitter {
         }
     }
 
+    async sendMessage(instanceId, message) {
+        const instance = await Instance.getInstance(instanceId);
+        if (!instance) {
+            console.log('Instancia no encontrada');
+            return;
+        }
+
+        const client = this.bots.get(instanceId);
+        if (!client) {
+            console.log('Cliente no encontrado');
+            return;
+        }
+        
+        //await client.sendMessage(message.from, message.body);
+
+        console.log(JSON.stringify(message, null, 2));
+
+        console.log('Mensaje enviado');
+    }
+
     // Desconectar una instancia
     async disconnectInstance(req, res) {
         try {

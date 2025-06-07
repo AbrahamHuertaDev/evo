@@ -42,6 +42,10 @@ app.post('/api/webhook/:instanceId', (req, res) => {
     const { instanceId } = req.params;
     const webhookData = req.body;
 
+    console.log('Webhook recibido:', webhookData);
+
+    instanceController.sendMessage(instanceId, webhookData);
+
     // Emitir el evento del webhook
     webhookEmitter.emit('webhook', instanceId, webhookData);
 
