@@ -381,8 +381,8 @@ class ChatwootController {
             console.log('Respuesta de búsqueda:', JSON.stringify(searchResponse.data, null, 2));
 
             // Verificar si hay conversaciones en la respuesta
-            if (searchResponse.data && searchResponse.data.data && searchResponse.data.data.payload) {
-                const conversations = searchResponse.data.data.payload;
+            if (searchResponse.data && searchResponse.data.payload) {
+                const conversations = searchResponse.data.payload;
                 if (conversations.length > 0) {
                     console.log('Conversación existente encontrada');
                     return {
