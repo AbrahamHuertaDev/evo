@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ffa3fd61-383f-43ad-a217-79ebe957ad8e",
+    "name": "Psic. Fernanda mejia",
+    "status": "connected",
+    "qr": "2@Rd/othk71vfwPGM2z07bA/q/WXMJ7an6i7K9V4M/mOeWsSF1yj6EeYCm0MaIAhz2YW4W2+0CJK/xJTtYboREMMbZiejVrEzFe0U=,s0Sxdn9x0WGujM0NR4lvSxlqIrxfYB5u5AQhXFsMKxk=,nL3sYyxdDzuJn/YJGb3pr2wMXtqRjtU6M15kK+PMilk=,bz7DFL+Xo0g+TEzNfVPNe2QhTR5+tuzPkPGCHuvv1fo=,1",
+    "chatwootInboxId": 10,
+    "chatwootWebhookId": null,
+    "chatwootInboxName": "WhatsApp Inbox",
+    "chatwootAccountId": "1",
+    "chatwootApiToken": "3HTSPEDGie3GUsSS1pZEved4",
+    "createdAt": "2025-06-07T00:00:47.908Z",
+    "updatedAt": "2025-06-07T00:02:30.540Z"
+  }
+]

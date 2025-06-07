@@ -1,0 +1,1181 @@
+2025-06-04T17:13:24: Inicializando base de datos de instancias...
+2025-06-04T17:13:24: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:13:25: === INSTANCE CONTROLLER INICIALIZADO ===
+2025-06-04T17:13:25: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-04T17:13:25: Inicializando base de datos de instancias...
+2025-06-04T17:13:25: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:13:25: Servidor corriendo en el puerto 3001
+2025-06-04T17:13:25: Iniciando reconexión de instancias existentes...
+2025-06-04T17:13:25: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-04T17:13:25: Inicializando base de datos de instancias...
+2025-06-04T17:13:25: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:13:25: Base de datos inicializada con 1 instancias
+2025-06-04T17:13:25: Instancias cargadas:
+2025-06-04T17:13:25: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:13:25: Base de datos inicializada con 1 instancias
+2025-06-04T17:13:25: Instancias cargadas:
+2025-06-04T17:13:25: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:13:25: Obteniendo todas las instancias...
+2025-06-04T17:13:25: 1 instancias encontradas
+2025-06-04T17:13:25: Instancias encontradas en la base de datos: 1
+2025-06-04T17:13:25: 
+Procesando instancia: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:13:25: Estado actual: connected
+2025-06-04T17:13:25: Creando nuevo cliente...
+2025-06-04T17:13:25: Cliente guardado en el mapa de instancias
+2025-06-04T17:13:25: Base de datos inicializada con 1 instancias
+2025-06-04T17:13:25: Instancias cargadas:
+2025-06-04T17:13:25: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:13:25: Obteniendo todas las instancias...
+2025-06-04T17:13:25: 1 instancias encontradas
+2025-06-04T17:13:25: Instancias encontradas en la base de datos: 1
+2025-06-04T17:13:25: 
+Procesando instancia: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:13:25: Estado actual: connected
+2025-06-04T17:13:25: Creando nuevo cliente...
+2025-06-04T17:13:25: Cliente guardado en el mapa de instancias
+2025-06-04T17:13:25: Estado actualizado a connecting
+2025-06-04T17:13:25: Iniciando cliente...
+2025-06-04T17:13:25: Estado actualizado a connecting
+2025-06-04T17:13:25: Iniciando cliente...
+2025-06-04T17:13:25: 
+Error al inicializar instancia Psic. Fernanda mejia: Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+    at onClose (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserRunner.js:299:20)
+    at ChildProcess.<anonymous> (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserRunner.js:290:24)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2025-06-04T17:13:25: 
+=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===
+2025-06-04T17:13:25: Total de instancias procesadas: 1
+2025-06-04T17:13:25: Instancias en el mapa: 1
+2025-06-04T17:13:30: Cliente iniciado exitosamente
+2025-06-04T17:13:30: 
+=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===
+2025-06-04T17:13:30: Total de instancias procesadas: 1
+2025-06-04T17:13:30: Instancias en el mapa: 1
+2025-06-04T17:13:30: [Psic. Fernanda mejia] Loading: 100% - WhatsApp
+2025-06-04T17:13:30: 
+=== Psic. Fernanda mejia CONECTADA ===
+2025-06-04T17:14:34: Inicializando base de datos de instancias...
+2025-06-04T17:14:34: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:14:35: === INSTANCE CONTROLLER INICIALIZADO ===
+2025-06-04T17:14:35: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-04T17:14:35: Inicializando base de datos de instancias...
+2025-06-04T17:14:35: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:14:35: Servidor corriendo en el puerto 3001
+2025-06-04T17:14:35: Iniciando reconexión de instancias existentes...
+2025-06-04T17:14:35: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-04T17:14:35: Inicializando base de datos de instancias...
+2025-06-04T17:14:35: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:14:35: Base de datos inicializada con 1 instancias
+2025-06-04T17:14:35: Instancias cargadas:
+2025-06-04T17:14:35: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:35: Base de datos inicializada con 1 instancias
+2025-06-04T17:14:35: Instancias cargadas:
+2025-06-04T17:14:35: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:35: Obteniendo todas las instancias...
+2025-06-04T17:14:35: 1 instancias encontradas
+2025-06-04T17:14:35: Instancias encontradas en la base de datos: 1
+2025-06-04T17:14:35: 
+Procesando instancia: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:35: Estado actual: connected
+2025-06-04T17:14:35: Creando nuevo cliente...
+2025-06-04T17:14:35: Cliente guardado en el mapa de instancias
+2025-06-04T17:14:35: Error al inicializar la base de datos: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Instance.initializeDB (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:70:40)
+    at async Instance.ensureInitialized (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:100:13)
+    at async Instance.getAllInstances (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:138:13)
+    at async InstanceController.initializeInstances (D:\Abraham\Proyects\PixelityStudios\Evo\src\controllers\instanceController.js:22:31)
+    at async Server.<anonymous> (D:\Abraham\Proyects\PixelityStudios\Evo\src\index.js:163:9)
+2025-06-04T17:14:35: Error al obtener instancias: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Instance.initializeDB (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:70:40)
+    at async Instance.ensureInitialized (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:100:13)
+    at async Instance.getAllInstances (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:138:13)
+    at async InstanceController.initializeInstances (D:\Abraham\Proyects\PixelityStudios\Evo\src\controllers\instanceController.js:22:31)
+    at async Server.<anonymous> (D:\Abraham\Proyects\PixelityStudios\Evo\src\index.js:163:9)
+2025-06-04T17:14:35: Error al inicializar instancias: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Instance.initializeDB (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:70:40)
+    at async Instance.ensureInitialized (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:100:13)
+    at async Instance.getAllInstances (D:\Abraham\Proyects\PixelityStudios\Evo\src\models\Instance.js:138:13)
+    at async InstanceController.initializeInstances (D:\Abraham\Proyects\PixelityStudios\Evo\src\controllers\instanceController.js:22:31)
+    at async Server.<anonymous> (D:\Abraham\Proyects\PixelityStudios\Evo\src\index.js:163:9)
+2025-06-04T17:14:35: Estado actualizado a connecting
+2025-06-04T17:14:35: Iniciando cliente...
+2025-06-04T17:14:40: Cliente iniciado exitosamente
+2025-06-04T17:14:40: 
+=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===
+2025-06-04T17:14:40: Total de instancias procesadas: 1
+2025-06-04T17:14:40: Instancias en el mapa: 1
+2025-06-04T17:14:40: [Psic. Fernanda mejia] Loading: 100% - WhatsApp
+2025-06-04T17:14:40: 
+=== Psic. Fernanda mejia CONECTADA ===
+2025-06-04T17:14:48: === INICIO DE REINICIO DE INSTANCIAS DESDE TELEGRAM ===
+2025-06-04T17:14:48: Usuario: abrahamhuerta
+2025-06-04T17:14:49: === INICIO DE REINICIO DE TODAS LAS INSTANCIAS ===
+2025-06-04T17:14:49: Obteniendo todas las instancias...
+2025-06-04T17:14:49: 1 instancias encontradas
+2025-06-04T17:14:49: Instancias encontradas: 1
+2025-06-04T17:14:49: 
+Desconectando instancia: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:49: Obteniendo páginas abiertas...
+2025-06-04T17:14:49: Cerrando 1 páginas...
+2025-06-04T17:14:49: Página cerrada
+2025-06-04T17:14:49: Cerrando página principal...
+2025-06-04T17:14:49: Error al cerrar página principal: Error: Protocol error: Connection closed. Most likely the page has been closed.
+    at assert (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\puppeteer-core\lib\cjs\puppeteer\util\assert.js:28:15)
+    at CDPPage.close (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Page.js:2021:32)
+    at InstanceController.restartAllInstances (D:\Abraham\Proyects\PixelityStudios\Evo\src\controllers\instanceController.js:620:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\src\telegramBot.js:431:9
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+2025-06-04T17:14:49: Cerrando navegador...
+2025-06-04T17:14:49: Navegador cerrado
+2025-06-04T17:14:49: Forzando cierre del proceso de Chrome...
+2025-06-04T17:14:49: Proceso de Chrome terminado
+2025-06-04T17:14:49: Cliente destruido
+2025-06-04T17:14:49: Cliente eliminado del mapa de instancias
+2025-06-04T17:14:49: Mapa de instancias limpiado
+2025-06-04T17:14:49: Esperando 5 segundos para asegurar el cierre de todos los procesos...
+2025-06-04T17:14:54: === REINICIANDO SERVICIO ===
+2025-06-04T17:14:55: Reiniciando servicio con PM2...
+2025-06-04T17:14:55: === FIN DE REINICIO DE INSTANCIAS DESDE TELEGRAM ===
+2025-06-04T17:14:59: Inicializando base de datos de instancias...
+2025-06-04T17:14:59: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:14:59: === INSTANCE CONTROLLER INICIALIZADO ===
+2025-06-04T17:14:59: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-04T17:14:59: Inicializando base de datos de instancias...
+2025-06-04T17:14:59: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:14:59: Servidor corriendo en el puerto 3001
+2025-06-04T17:14:59: Iniciando reconexión de instancias existentes...
+2025-06-04T17:14:59: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-04T17:14:59: Inicializando base de datos de instancias...
+2025-06-04T17:14:59: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:14:59: Base de datos inicializada con 1 instancias
+2025-06-04T17:14:59: Instancias cargadas:
+2025-06-04T17:14:59: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:59: Obteniendo todas las instancias...
+2025-06-04T17:14:59: 1 instancias encontradas
+2025-06-04T17:14:59: Instancias encontradas en la base de datos: 1
+2025-06-04T17:14:59: 
+Procesando instancia: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:59: Estado actual: connected
+2025-06-04T17:14:59: Creando nuevo cliente...
+2025-06-04T17:14:59: Cliente guardado en el mapa de instancias
+2025-06-04T17:14:59: Base de datos inicializada con 1 instancias
+2025-06-04T17:14:59: Instancias cargadas:
+2025-06-04T17:14:59: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:59: Base de datos inicializada con 1 instancias
+2025-06-04T17:14:59: Instancias cargadas:
+2025-06-04T17:14:59: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:59: Obteniendo todas las instancias...
+2025-06-04T17:14:59: 1 instancias encontradas
+2025-06-04T17:14:59: Instancias encontradas en la base de datos: 1
+2025-06-04T17:14:59: 
+Procesando instancia: Psic. Fernanda mejia (ece9262d-be2e-4b8a-a4fa-1b7630737a54)
+2025-06-04T17:14:59: Estado actual: connected
+2025-06-04T17:14:59: Creando nuevo cliente...
+2025-06-04T17:14:59: Cliente guardado en el mapa de instancias
+2025-06-04T17:14:59: Estado actualizado a connecting
+2025-06-04T17:14:59: Iniciando cliente...
+2025-06-04T17:14:59: Estado actualizado a connecting
+2025-06-04T17:14:59: Iniciando cliente...
+2025-06-04T17:15:00: 
+Error al inicializar instancia Psic. Fernanda mejia: Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+    at onClose (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserRunner.js:299:20)
+    at ChildProcess.<anonymous> (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserRunner.js:290:24)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2025-06-04T17:15:00: 
+=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===
+2025-06-04T17:15:00: Total de instancias procesadas: 1
+2025-06-04T17:15:00: Instancias en el mapa: 1
+2025-06-04T17:15:04: Cliente iniciado exitosamente
+2025-06-04T17:15:04: 
+=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===
+2025-06-04T17:15:04: Total de instancias procesadas: 1
+2025-06-04T17:15:04: Instancias en el mapa: 1
+2025-06-04T17:15:04: [Psic. Fernanda mejia] Loading: 100% - WhatsApp
+2025-06-04T17:15:04: 
+=== Psic. Fernanda mejia CONECTADA ===
+2025-06-04T17:15:15: Obteniendo todas las instancias...
+2025-06-04T17:15:15: 1 instancias encontradas
+2025-06-04T17:15:19: === INICIO ESCENA DESCONEXIÓN ===
+2025-06-04T17:15:21: === RECIBIDO TEXTO EN ESCENA DESCONEXIÓN ===
+2025-06-04T17:15:21: Texto recibido: ece9262d-be2e-4b8a-a4fa-1b7630737a54
+2025-06-04T17:15:21: Estado actual: { disconnectData: {} }
+2025-06-04T17:15:21: ID de instancia recibido: ece9262d-be2e-4b8a-a4fa-1b7630737a54
+2025-06-04T17:15:21: Datos de instancia obtenidos: {
+  id: 'ece9262d-be2e-4b8a-a4fa-1b7630737a54',
+  name: 'Psic. Fernanda mejia',
+  status: 'connected',
+  created_at: undefined,
+  updated_at: undefined,
+  chatwootInboxId: 7,
+  chatwootApiToken: '3HTSPEDGie3GUsSS1pZEved4',
+  qr: '2@fanRD8a7EYN60jKTz+BeK5ccgG39EzuMrwSUu4PpP/DAshYwupQddXeuX2nO+tBEeLpr7RLP30+lDnuRvp/vIvUl0NkVwpdfY/Q=,lhVtYQ6u/fuFP0stNNb5oCR2XBbNbsiaWTJUvskPQDk=,cy2qEhE7eip5JOsK04+LxD7wycCYgt7H9Z4o/nJSwAQ=,IC+0wTa5fjl7qXsl11bdb9Wubt30XAubjfpaKOfs1J8=,1'
+}
+2025-06-04T17:15:21: Estado guardado: {
+  instanceId: 'ece9262d-be2e-4b8a-a4fa-1b7630737a54',
+  instanceName: 'Psic. Fernanda mejia'
+}
+2025-06-04T17:15:21: Paso actualizado a confirm_disconnect
+2025-06-04T17:15:23: === CONFIRMACIÓN DE DESCONEXIÓN ===
+2025-06-04T17:15:23: Texto recibido: si
+2025-06-04T17:15:23: Estado actual: {
+  disconnectData: {
+    instanceId: 'ece9262d-be2e-4b8a-a4fa-1b7630737a54',
+    instanceName: 'Psic. Fernanda mejia'
+  },
+  step: 'confirm_disconnect'
+}
+2025-06-04T17:15:23: Datos de desconexión: {
+  instanceId: 'ece9262d-be2e-4b8a-a4fa-1b7630737a54',
+  instanceName: 'Psic. Fernanda mejia'
+}
+2025-06-04T17:15:23: Llamando a disconnectInstance con ID: ece9262d-be2e-4b8a-a4fa-1b7630737a54
+2025-06-04T17:15:23: === INICIO DESCONEXIÓN DE INSTANCIA ===
+2025-06-04T17:15:23: ID de instancia: ece9262d-be2e-4b8a-a4fa-1b7630737a54
+2025-06-04T17:15:23: Instancia encontrada: Psic. Fernanda mejia
+2025-06-04T17:15:23: Desconectando cliente de WhatsApp...
+2025-06-04T17:15:23: Cliente encontrado: [AsyncFunction: destroy]
+2025-06-04T17:15:23: Destruyendo cliente...
+2025-06-04T17:15:23: Error al destruir cliente: TypeError: Cannot read properties of null (reading 'close')
+    at Client.destroy (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\whatsapp-web.js\src\Client.js:782:31)
+    at InstanceController.disconnectInstance (D:\Abraham\Proyects\PixelityStudios\Evo\src\controllers\instanceController.js:499:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\src\telegramBot.js:169:28
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async execute (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:518:17)
+    at async D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\telegraf\lib\composer.js:519:21
+2025-06-04T17:15:23: Procediendo con limpieza a pesar del error...
+2025-06-04T17:15:23: Cliente eliminado del mapa de instancias
+2025-06-04T17:15:23: Instancia eliminada de la base de datos
+2025-06-04T17:15:28: === INICIO DE REINICIO DE INSTANCIAS DESDE TELEGRAM ===
+2025-06-04T17:15:28: Usuario: abrahamhuerta
+2025-06-04T17:15:29: === INICIO DE REINICIO DE TODAS LAS INSTANCIAS ===
+2025-06-04T17:15:29: Obteniendo todas las instancias...
+2025-06-04T17:15:29: 0 instancias encontradas
+2025-06-04T17:15:29: Instancias encontradas: 0
+2025-06-04T17:15:29: Mapa de instancias limpiado
+2025-06-04T17:15:29: Esperando 5 segundos para asegurar el cierre de todos los procesos...
+2025-06-04T17:15:34: === REINICIANDO SERVICIO ===
+2025-06-04T17:15:35: Reiniciando servicio con PM2...
+2025-06-04T17:15:35: === FIN DE REINICIO DE INSTANCIAS DESDE TELEGRAM ===
+2025-06-04T17:15:39: Inicializando base de datos de instancias...
+2025-06-04T17:15:39: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:15:39: === INSTANCE CONTROLLER INICIALIZADO ===
+2025-06-04T17:15:39: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-04T17:15:39: Inicializando base de datos de instancias...
+2025-06-04T17:15:39: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:15:39: Servidor corriendo en el puerto 3001
+2025-06-04T17:15:39: Iniciando reconexión de instancias existentes...
+2025-06-04T17:15:39: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-04T17:15:39: Inicializando base de datos de instancias...
+2025-06-04T17:15:39: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-04T17:15:39: Base de datos inicializada con 0 instancias
+2025-06-04T17:15:39: Obteniendo todas las instancias...
+2025-06-04T17:15:39: 0 instancias encontradas
+2025-06-04T17:15:39: Instancias encontradas en la base de datos: 0
+2025-06-04T17:15:39: No hay instancias para reconectar
+2025-06-04T17:15:39: Base de datos inicializada con 0 instancias
+2025-06-04T17:15:39: Base de datos inicializada con 0 instancias
+2025-06-04T17:15:39: Obteniendo todas las instancias...
+2025-06-04T17:15:39: 0 instancias encontradas
+2025-06-04T17:15:39: Instancias encontradas en la base de datos: 0
+2025-06-04T17:15:39: No hay instancias para reconectar
+2025-06-06T17:59:26: Inicializando base de datos de instancias...
+2025-06-06T17:59:26: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T17:59:26: === WEBHOOK EMITTER INICIALIZADO ===
+2025-06-06T17:59:26: Eventos configurados: [ 'qr', 'ready', 'disconnected', 'auth_failure', 'error' ]
+2025-06-06T17:59:26: === INSTANCE CONTROLLER INICIALIZADO ===
+2025-06-06T17:59:26: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-06T17:59:26: Inicializando base de datos de instancias...
+2025-06-06T17:59:26: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T17:59:27: Configurando instanceController con webhookEmitter...
+2025-06-06T17:59:27: instanceController configurado con webhookEmitter
+2025-06-06T17:59:27: Servidor corriendo en el puerto 3001
+2025-06-06T17:59:27: Iniciando reconexión de instancias existentes...
+2025-06-06T17:59:27: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-06T17:59:27: Inicializando base de datos de instancias...
+2025-06-06T17:59:27: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T17:59:27: Base de datos inicializada con 0 instancias
+2025-06-06T17:59:27: Base de datos inicializada con 0 instancias
+2025-06-06T17:59:27: Obteniendo todas las instancias...
+2025-06-06T17:59:27: 0 instancias encontradas
+2025-06-06T17:59:27: Instancias encontradas en la base de datos: 0
+2025-06-06T17:59:27: No hay instancias para reconectar
+2025-06-06T17:59:27: Base de datos inicializada con 0 instancias
+2025-06-06T17:59:27: Obteniendo todas las instancias...
+2025-06-06T17:59:27: 0 instancias encontradas
+2025-06-06T17:59:27: Instancias encontradas en la base de datos: 0
+2025-06-06T17:59:27: No hay instancias para reconectar
+2025-06-06T17:59:39: Obteniendo todas las instancias...
+2025-06-06T17:59:39: 0 instancias encontradas
+2025-06-06T17:59:44: 
+=== INICIO CREACIÓN DE INSTANCIA ===
+2025-06-06T17:59:44: Parámetros recibidos: { name: 'Psic. Fernanda mejia' }
+2025-06-06T17:59:44: Nombre de la instancia: Psic. Fernanda mejia
+2025-06-06T17:59:44: Creando instancia en la base de datos...
+2025-06-06T17:59:44: Instancia creada: Psic. Fernanda mejia (43e28c64-bc0c-42ab-b0f5-3be2e1c72d0e)
+2025-06-06T17:59:44: Instancia creada en la base de datos: {
+  id: '43e28c64-bc0c-42ab-b0f5-3be2e1c72d0e',
+  name: 'Psic. Fernanda mejia',
+  status: 'disconnected',
+  createdAt: '2025-06-06T23:59:44.637Z',
+  updatedAt: '2025-06-06T23:59:44.637Z'
+}
+2025-06-06T17:59:44: Creando cliente de WhatsApp...
+2025-06-06T17:59:44: Cliente de WhatsApp creado
+2025-06-06T17:59:44: Configurando eventos del cliente...
+2025-06-06T17:59:44: Guardando referencia del cliente...
+2025-06-06T17:59:44: Cliente guardado en el mapa de instancias
+2025-06-06T17:59:44: Iniciando cliente...
+2025-06-06T17:59:49: 
+=== EVENTO QR RECIBIDO ===
+2025-06-06T17:59:49: QR generado para instancia Psic. Fernanda mejia
+2025-06-06T17:59:49: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀ ▀▀█▄█▀▀▄█▀▀ ▄  ▄█ ▀▄▄▀█▀▀█ ▄█ ▀▄ ▄▄▄▄ ██ ▄▄▄▄▄ █
+█ █   █ █▀█ ██ ▄▄▄▀ █▄█▄▀▀▀█▄▄██▀▄▄ █▀▀▀██▀▀ ▄ ▄ ██ █   █ █
+█ █▄▄▄█ █▀  ██ █▄█▀ ▄ █ ▀ █ ▄▄▄ ▄█▀▀█▄ ▀▄█  ▄█▀▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄▀ ▀▄▀▄▀ ▀ ▀▄█ █ █▄█ ▀▄█ ▀▄▀▄▀▄█▄▀▄█ ▀▄█▄▄▄▄▄▄▄█
+█▄ ▄▄▄▀▄  ▀▀██▄█▀▄  ▀▄▀▀▀▀▄ ▄▄  ▀█▀██ ███▀▀  █▄█▀▀ █ █▄▀ ▀█
+█▄▄█ ▀▄▄█ █▀▄▀▄ ██▀ ▀▀▀ █▄▀▄ ▀ █▀▀  ▄▄ ▄▀ ▀  █▄▀██▄ ▀█▀▀█▀█
+█▀▀█ ▄ ▄ ▀▄ ▀█▄▄▀▄▀ ▄▄▀▄▀▀▄▀▀▀▀█▄█▀▄ ▄▄███▄▀▄▀█▄█▀ █▀██▄▀▄█
+█ █▄ ▀▄▄███ ██ ▀▄   ██▄▄   █ ▄▀ ▄▀▀▄▀▄  ██ █▀▀▀█▀█ ▄▀█   ▀█
+█ ▀▀▀  ▄ █▄▄▄  ▀▄▄ ▄█▄▀▀▀▀█▄▀ █▀ ▀▀▄█▄▀▄█▀  █▀██▀▀ █▀▀ ▀▀▄█
+███▄▄  ▄ ▄▄█▀ ▀█▀█ █▄▄▀▀█▀ ▄▀▄ █▀▀█▄▀▀ ▄█▄▄█▀█▄ █▀▀▀▀▀ ▀ ▀█
+█▀ █  ▀▄ ▄█▄  ▀█▄▀▀▄▄█▀▀▀▄▀ ▀▀ ▀█▀█▄▄  ▄█▀▀ ▄▀▄█▄▀▀█▀█ ▀  █
+█▄▄██▄▄▄▀▀▄█▀▀  ▄ ▀ ▄█▄ ▀█▀ ▄▀▄▀██▄▀ ▄█▄▀▀██▀▀▄ ▄▄█▄███▀▀▀█
+███▀█  ▄▀▄ ▀▀█▀▄▄█▄▄█▄██▀ ▀█▄█▀ ▄  ██▄▀▄ ▀ ▀▄█ ▄▀ ▀▄█▀█▀▄ █
+██ ▄█ ▄▄▄  ▀▀▀ ▀▀█▄█ ▀▄█ ▀▀ ▄▄▄  ▄▀▄ █▄▀█▀█▀▄█▄▄  ▄▄▄ ▀  ▀█
+█▄▄▄▀ █▄█   ▄ ▀█▄█▄▀ █▄█▀ ▀ █▄█ ▄██▄  ▀█▀██▀ ███▄ █▄█ ▀ ███
+█▀ ▄▀▄▄▄  █ ▄ ▀█ ▄▀▄ █▄▄▀██   ▄  ▀▄   ▄▄ ▀▄█ ▀▄██▄▄  ▄▄▀▄▀█
+█▀ ▀▀█ ▄ █▀ ▀▀ ▄▄▄  ▀█▀█ ▀█▀▄█▀  █▀█ ▄▀▄███ █▀█▄▀  ▀▄▄ ▀█▄█
+█ ▀▀▄▀█▄█▀▄▀▄█▄██▀▀ █▄▄▄█▄█ ▀█▀   ▄▄▀███▄█▄█▄▀▄▄ ▀▄▀ █  ▄▀█
+█▄█▄▀▄█▄▄█ ▄ ██▄▀█▄ ▀▀▀█▄ ▄▄▀█▄ ▄▀▄▄▀  ██▀▀▀ ▀█▄█ ▀▀██▄██▀█
+███▄█▀█▄█ █ ▀██▀▀█▀█▀  █▄ ▄▀▀█▄ ▀▄ █▄▄ ▄█ ▄▄▀▀█ ▄▄▄▀ █ ▀▄▄█
+█▀█▄▀▀ ▄▄██▀▄ █ ▄▄▀▄▄▄▀▀▀▀█▀█▄██▀█▀█ ▄▄▄██▀▀▀▀█▄█ █▀▄█▄█▀▀█
+█▄██▄██▄▀▄▀▀ ▄▄█▀▀▀ ▀█▀ ▄▀█▀█▀▀▄▀▀▄██▄ ▄███▄ ▄▀  ▄▀▀█ ▀ ▀██
+█▀ ██▀▄▄█ ▀▀▀▀  ▀▄▀ ▀▄▀▄▀ ▄▀▀▄██▀█▄▄  ██▀██ ▄█▄███ ▀██▄▀▀ █
+█ ▀ ▀▀▄▄▀▀▄  █▄▀▄▄▄▄██▀▀█▄█▄ █▄ ▄▀▄ █▀█▄▄▄ ▀█▀▄▄ ▄▄██▄▀ ▄▀█
+███████▄█▀▀█▀▀▀█▄▄▄ ▀███ ▀▄ ▄▄▄ ▄▀▄█   █▀▀▀▀ ▀███ ▄▄▄ ▄ ▀██
+█ ▄▄▄▄▄ █▄▄ ▄▄▄▄▄▄▄▄▄▄█ ██▄ █▄█ ▀██▀ ▄ ▄▀▄▀▀▀███  █▄█  ▀▄██
+█ █   █ █ █▄▄▄█ ▄▀  ▄██▀▀▄ ▄▄▄ ▄ ▀▀█ ▄ █▀█ ▀ ▀▄▄▀▄  ▄▄▀ ▄██
+█ █▄▄▄█ █ █▄██  ▄ ▀▄▄█  ▀█▀██▀▀█▄██ ▀█████▄ ▄▀▀▀▄  ███▀▀███
+█▄▄▄▄▄▄▄█▄▄█▄█▄▄█▄▄▄▄▄▄█▄█▄█▄██▄▄▄▄▄▄▄█▄██▄█▄█▄▄███▄██▄█▄██
+
+2025-06-06T17:59:49: Actualizando estado de la instancia...
+2025-06-06T17:59:49: Estado actualizado a waiting_qr
+2025-06-06T17:59:49: Emitiendo evento QR...
+2025-06-06T17:59:49: Datos del evento QR: {
+  "instanceId": "43e28c64-bc0c-42ab-b0f5-3be2e1c72d0e",
+  "instanceName": "Psic. Fernanda mejia",
+  "qr": "2@HuPdLb6jN/UHgSbQw284OWTU8t+u4X+3fgZr1f4CQJjUSJxriiiFSBC+5sVFmajTROYw0WSTrgMgJageSf23Mx6nQoXNrAuKZ0c=,Rmsdoz091iaUXNEcviOpeP8O1FV2N3RzKWusODiwmhI=,gvPUBYXjWXPucwauIeskgFM54TzpJMrHCf1sgHlkPj4=,eQk3yaE5Gy3j6+vpVEChx2lN/zo4uXKjCUv/D2W2sn4=,1"
+}
+2025-06-06T17:59:49: 
+=== WEBHOOK EMITTER: EVENTO QR ===
+2025-06-06T17:59:49: Datos recibidos: {
+  "instanceId": "43e28c64-bc0c-42ab-b0f5-3be2e1c72d0e",
+  "instanceName": "Psic. Fernanda mejia",
+  "qr": "2@HuPdLb6jN/UHgSbQw284OWTU8t+u4X+3fgZr1f4CQJjUSJxriiiFSBC+5sVFmajTROYw0WSTrgMgJageSf23Mx6nQoXNrAuKZ0c=,Rmsdoz091iaUXNEcviOpeP8O1FV2N3RzKWusODiwmhI=,gvPUBYXjWXPucwauIeskgFM54TzpJMrHCf1sgHlkPj4=,eQk3yaE5Gy3j6+vpVEChx2lN/zo4uXKjCUv/D2W2sn4=,1"
+}
+2025-06-06T17:59:49: Número de listeners: 1
+2025-06-06T17:59:49: 
+=== WEBHOOK EMITTER: EVENTO QR ===
+2025-06-06T17:59:49: Datos recibidos: {
+  "instanceId": "43e28c64-bc0c-42ab-b0f5-3be2e1c72d0e",
+  "instanceName": "Psic. Fernanda mejia",
+  "qr": "2@HuPdLb6jN/UHgSbQw284OWTU8t+u4X+3fgZr1f4CQJjUSJxriiiFSBC+5sVFmajTROYw0WSTrgMgJageSf23Mx6nQoXNrAuKZ0c=,Rmsdoz091iaUXNEcviOpeP8O1FV2N3RzKWusODiwmhI=,gvPUBYXjWXPucwauIeskgFM54TzpJMrHCf1sgHlkPj4=,eQk3yaE5Gy3j6+vpVEChx2lN/zo4uXKjCUv/D2W2sn4=,1"
+}
+2025-06-06T17:59:49: Número de listeners: 1
+2025-06-06T17:59:49: Evento QR emitido
+2025-06-06T17:59:49: Cliente iniciado exitosamente
+2025-06-06T17:59:49: Enviando respuesta HTTP...
+2025-06-06T17:59:49: Respuesta HTTP enviada
+2025-06-06T17:59:49: === FIN CREACIÓN DE INSTANCIA ===
+
+2025-06-06T17:59:56: Obteniendo todas las instancias...
+2025-06-06T17:59:56: 1 instancias encontradas
+2025-06-06T18:00:16: [Psic. Fernanda mejia] Loading: 100% - WhatsApp
+2025-06-06T18:00:17: 
+=== Psic. Fernanda mejia CONECTADA ===
+2025-06-06T18:00:17: Actualizando estado de la instancia...
+2025-06-06T18:00:17: Estado actualizado a connected
+2025-06-06T18:00:17: Emitiendo evento ready...
+2025-06-06T18:00:17: 
+=== WEBHOOK EMITTER: EVENTO READY ===
+2025-06-06T18:00:17: Datos recibidos: {
+  "instanceId": "43e28c64-bc0c-42ab-b0f5-3be2e1c72d0e",
+  "instanceName": "Psic. Fernanda mejia"
+}
+2025-06-06T18:00:17: Número de listeners: 1
+2025-06-06T18:00:17: Evento ready emitido
+2025-06-06T18:00:25: Obteniendo todas las instancias...
+2025-06-06T18:00:25: 1 instancias encontradas
+2025-06-06T18:00:29: Intentando eliminar instancia: 43e28c64-bc0c-42ab-b0f5-3be2e1c72d0e
+2025-06-06T18:00:30: Cliente destruido y eliminado del mapa
+2025-06-06T18:00:30: Instancia eliminada de la base de datos
+2025-06-06T18:00:30: === INICIO DE REINICIO DE TODAS LAS INSTANCIAS ===
+2025-06-06T18:00:30: Obteniendo todas las instancias...
+2025-06-06T18:00:30: 0 instancias encontradas
+2025-06-06T18:00:30: Instancias encontradas: 0
+2025-06-06T18:00:30: Mapa de instancias limpiado
+2025-06-06T18:00:30: Esperando 5 segundos para asegurar el cierre de todos los procesos...
+2025-06-06T18:00:35: === REINICIANDO SERVICIO ===
+2025-06-06T18:00:36: Reiniciando servicio con PM2...
+2025-06-06T18:00:36: Obteniendo todas las instancias...
+2025-06-06T18:00:36: 0 instancias encontradas
+2025-06-06T18:00:40: Inicializando base de datos de instancias...
+2025-06-06T18:00:40: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T18:00:41: === WEBHOOK EMITTER INICIALIZADO ===
+2025-06-06T18:00:41: Eventos configurados: [ 'qr', 'ready', 'disconnected', 'auth_failure', 'error' ]
+2025-06-06T18:00:41: === INSTANCE CONTROLLER INICIALIZADO ===
+2025-06-06T18:00:41: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-06T18:00:41: Inicializando base de datos de instancias...
+2025-06-06T18:00:41: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T18:00:41: Configurando instanceController con webhookEmitter...
+2025-06-06T18:00:41: instanceController configurado con webhookEmitter
+2025-06-06T18:00:41: Servidor corriendo en el puerto 3001
+2025-06-06T18:00:41: Iniciando reconexión de instancias existentes...
+2025-06-06T18:00:41: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-06T18:00:41: Inicializando base de datos de instancias...
+2025-06-06T18:00:41: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T18:00:41: Base de datos inicializada con 0 instancias
+2025-06-06T18:00:41: Obteniendo todas las instancias...
+2025-06-06T18:00:41: 0 instancias encontradas
+2025-06-06T18:00:41: Instancias encontradas en la base de datos: 0
+2025-06-06T18:00:41: No hay instancias para reconectar
+2025-06-06T18:00:41: Base de datos inicializada con 0 instancias
+2025-06-06T18:00:41: Base de datos inicializada con 0 instancias
+2025-06-06T18:00:41: Obteniendo todas las instancias...
+2025-06-06T18:00:41: 0 instancias encontradas
+2025-06-06T18:00:41: Instancias encontradas en la base de datos: 0
+2025-06-06T18:00:41: No hay instancias para reconectar
+2025-06-06T18:00:41: Obteniendo todas las instancias...
+2025-06-06T18:00:41: 0 instancias encontradas
+2025-06-06T18:00:47: 
+=== INICIO CREACIÓN DE INSTANCIA ===
+2025-06-06T18:00:47: Parámetros recibidos: { name: 'Psic. Fernanda mejia' }
+2025-06-06T18:00:47: Nombre de la instancia: Psic. Fernanda mejia
+2025-06-06T18:00:47: Creando instancia en la base de datos...
+2025-06-06T18:00:47: Instancia creada: Psic. Fernanda mejia (ffa3fd61-383f-43ad-a217-79ebe957ad8e)
+2025-06-06T18:00:47: Instancia creada en la base de datos: {
+  id: 'ffa3fd61-383f-43ad-a217-79ebe957ad8e',
+  name: 'Psic. Fernanda mejia',
+  status: 'disconnected',
+  createdAt: '2025-06-07T00:00:47.908Z',
+  updatedAt: '2025-06-07T00:00:47.908Z'
+}
+2025-06-06T18:00:47: Creando cliente de WhatsApp...
+2025-06-06T18:00:47: Cliente de WhatsApp creado
+2025-06-06T18:00:47: Configurando eventos del cliente...
+2025-06-06T18:00:47: Guardando referencia del cliente...
+2025-06-06T18:00:47: Cliente guardado en el mapa de instancias
+2025-06-06T18:00:47: Iniciando cliente...
+2025-06-06T18:00:52: 
+=== EVENTO QR RECIBIDO ===
+2025-06-06T18:00:52: QR generado para instancia Psic. Fernanda mejia
+2025-06-06T18:00:52: ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀ ▀▀█▄▄ ▀ █▀█▄   ▄█▄▄▄▄█▀███  █  ▄  █▄▄ ██ ▄▄▄▄▄ █
+█ █   █ █▀▀▄  █▄▄▄▀ ▄▄▄▄▀▀▀███▀ ▄▄ █▀▀▄  ▄▀▀ ▄ ▄ ██ █   █ █
+█ █▄▄▄█ █▀██▀█▄ ▄█▄▀▄ ▀█▀ █ ▄▄▄ ▀▄█▀▄ █▀▀█ ▄█▄▀▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄▀▄█▄▀▄█▄▀ ▀▄█ █ █▄█ ▀▄█ ▀▄█ ▀▄▀ ▀ ▀▄▀▄█▄▄▄▄▄▄▄█
+█  ▄▄ █▄ ▄▄█▄█▄▀██ ▄▀▄▀█   ▄ ▄  ▀█▀█▀▄▀██▀  ▄███   █▄▀▄▀ ██
+█▄█▄ ▀▀▄▄█ █▄█▄ ▀ ▀ ▀▀▀ ▄█ █ ▀ ▄▀▀▄  █   ▀▄█ ▀▄▄████▄▀▀▀ ▀█
+██▀▀ ██▄▄███  ▄▄▄█▀ ▀▄▀▄▀  ██▀▀█▄█ ▄ ▄ ▄▀▀█▀ █▄▄ ▀ ▄█▀▀ █▄█
+███ ▀█▀▄█▄▀▀▀▄  ▀▀█ █▀  █  ▄▀▄▀  ▀█▄▀▄ █   ██▄▄▄▄ ▀██▄▀  ██
+█ █▄▀ ▀▄▄ ▄▀▄ ▀▀█▄▄ ▀▄▄▀ ▀▀▀▀ ▀  ▀▀█▀ ▀▄██  ▄▀▄█  ▀▄▀▀▄  ▀█
+██▀▀▄ ▀▄▀█▀▄▀▄▀█ ▀▀ ▄▄ ▀▄ ▄██ ▀ ▀█▀▄▄▄  █▀█▄▀▀█ █▀ ██▀  ▀▀█
+█▄▀  ▄█▄█▄▀▀▀█▀█▄▀▄ ▄█▄▀▀▄  ▄█▀  █ ▄ ▄ ▄█▀▀ ▀█▄█▄▀▀█▀▀   ▀█
+█ ▄█▀▀ ▄▄█ █▄█▄▄▄ ██▄██▄▀█▀ █▀█▀█▄█ ▄▄ █▀▄██    ▄██ ▀█▀ ▀▀█
+█  █▄  ▄█▄▄█ █▀█ ▄▀▄█▄▀▀█▀▀█ █▀▀▄  █▄▄ ██▀▀▀ ▀▄█▀ ▀▄▀██ ▄ █
+██▀▀  ▄▄▄ ▀▀▄▄ ▀▄▀▄█ ▀▄█▄█  ▄▄▄   █▄ ▄ ▄▀█▄ ▀▄███ ▄▄▄ ▀ ▀▀█
+███ █ █▄█ ▀ ▀▄█▄██▄▀ ▄▄█▄▀▀ █▄█ ▄█▄▄█▄ ▄███  ▀▄▄▀ █▄█    ▀█
+█ █ ▄▄▄▄▄▄█▄ ▀██▄▄ ▀▄▄▀▀ ▄▄   ▄▄▀▄▄ █▄▄█▀▀ █▀██▄  ▄▄ ▄▄▀▀██
+█▀  █▀ ▄█▄▀█▄▀ ▄▄▄▄▄▀█▀█▄▀▄ ▄█▀ ▄█▀█▄▄▀▄██   ▀▄█▀█ ▄▄▄▄▀ ██
+█ ██▀▄ ▄▀ ▀█▄█▀█▀█▀▀▄▀▀█▀▀▄ █▀▀ ▀▀ ▄ ▄█▀  ▀▀▄▄█▀▀▀▄██    ██
+█ ▀▀█ █▄▄▄█ ▀ ▀▄▀█ ▄▀▀▀▀▄ █▀▀█ ▀▀▀▄▄█▄ █▄█▀  ▀▄▄████▄▄▀▀█ █
+█▄ ▀██ ▄▀ █ ▄▄ █▀█ ▄▀ ▄▄▄ ▄▀▀██▄▀▄▀▄██▀█ ██ ▄▀▄█▀▄▄█▄   ▄▄█
+█▄█ ▄▀█▄██▄▀▄  ▀▄█▄ ▄▄▀▀▀ █▀██▄█▀█▀█  ▀▄▀█▀ ▀█▄██ █▄▄█▄▀█▀█
+█▄▄ ▄▄▄▄ ▄█    ▀▄▄▀ ▄ ▀ ▄██▀▄█▀▄▀█ ▀█▄▄ ▄▀▀▀ ▀██ █▄▀ ▀▀▀▄██
+█▄▄▀▀█▄▄▄▀█▀▀▀██▄▄▀  █▀▄▀ ▄▀█▄██ █▀█ ▄▀█▀▀ ▀ ▀█▄▀█▀ ▀▄█▀▀▀█
+█ ▀ ▀▀▄▄  ▄▀ █▄▀ ▀▀ ▀▄█████ ▀▀ ▄  █ ▄ ▀█  █▀█▀▀▀ ▀█▀▀ █▀ ██
+███████▄█   ██▄▀▄█▄  █▀▀▀ ▄ ▄▄▄ ▀▀▄█▄▄ █▀▀▀▀▄▀██▀ ▄▄▄ ██ ██
+█ ▄▄▄▄▄ █▄██▄███▀▀█▄ █▀▄▄▀▄ █▄█ ███▄█▀▄  ▄  ██▄ ▄ █▄█ ▀ ▄▀█
+█ █   █ █ ▀▀█▀██▄▀ ▄▄██▀▀▄▄    ▄ ▀█▄  ▀▄▀▀▀ ▄█ █▄▄▄   ▄▄███
+█ █▄▄▄█ █  ▀ ▀██▄ ▄ ▄█▀▄▀█ ██▀▀█▄█▄▀ █▀█▄█▄█▀▀▀▄▄▄ ▄ █▀▀███
+█▄▄▄▄▄▄▄█▄▄█▄▄██▄█▄▄█▄████▄██▄█▄▄▄▄▄█▄█▄██▄███▄▄▄█▄▄███▄▄██
+
+2025-06-06T18:00:52: Actualizando estado de la instancia...
+2025-06-06T18:00:52: Estado actualizado a waiting_qr
+2025-06-06T18:00:52: Emitiendo evento QR...
+2025-06-06T18:00:52: Datos del evento QR: {
+  "instanceId": "ffa3fd61-383f-43ad-a217-79ebe957ad8e",
+  "instanceName": "Psic. Fernanda mejia",
+  "qr": "2@Rd/othk71vfwPGM2z07bA/q/WXMJ7an6i7K9V4M/mOeWsSF1yj6EeYCm0MaIAhz2YW4W2+0CJK/xJTtYboREMMbZiejVrEzFe0U=,s0Sxdn9x0WGujM0NR4lvSxlqIrxfYB5u5AQhXFsMKxk=,nL3sYyxdDzuJn/YJGb3pr2wMXtqRjtU6M15kK+PMilk=,bz7DFL+Xo0g+TEzNfVPNe2QhTR5+tuzPkPGCHuvv1fo=,1"
+}
+2025-06-06T18:00:52: 
+=== WEBHOOK EMITTER: EVENTO QR ===
+2025-06-06T18:00:52: Datos recibidos: {
+  "instanceId": "ffa3fd61-383f-43ad-a217-79ebe957ad8e",
+  "instanceName": "Psic. Fernanda mejia",
+  "qr": "2@Rd/othk71vfwPGM2z07bA/q/WXMJ7an6i7K9V4M/mOeWsSF1yj6EeYCm0MaIAhz2YW4W2+0CJK/xJTtYboREMMbZiejVrEzFe0U=,s0Sxdn9x0WGujM0NR4lvSxlqIrxfYB5u5AQhXFsMKxk=,nL3sYyxdDzuJn/YJGb3pr2wMXtqRjtU6M15kK+PMilk=,bz7DFL+Xo0g+TEzNfVPNe2QhTR5+tuzPkPGCHuvv1fo=,1"
+}
+2025-06-06T18:00:52: Número de listeners: 1
+2025-06-06T18:00:52: 
+=== WEBHOOK EMITTER: EVENTO QR ===
+2025-06-06T18:00:52: Datos recibidos: {
+  "instanceId": "ffa3fd61-383f-43ad-a217-79ebe957ad8e",
+  "instanceName": "Psic. Fernanda mejia",
+  "qr": "2@Rd/othk71vfwPGM2z07bA/q/WXMJ7an6i7K9V4M/mOeWsSF1yj6EeYCm0MaIAhz2YW4W2+0CJK/xJTtYboREMMbZiejVrEzFe0U=,s0Sxdn9x0WGujM0NR4lvSxlqIrxfYB5u5AQhXFsMKxk=,nL3sYyxdDzuJn/YJGb3pr2wMXtqRjtU6M15kK+PMilk=,bz7DFL+Xo0g+TEzNfVPNe2QhTR5+tuzPkPGCHuvv1fo=,1"
+}
+2025-06-06T18:00:52: Número de listeners: 1
+2025-06-06T18:00:52: Evento QR emitido
+2025-06-06T18:00:52: Cliente iniciado exitosamente
+2025-06-06T18:00:52: Enviando respuesta HTTP...
+2025-06-06T18:00:52: Respuesta HTTP enviada
+2025-06-06T18:00:52: === FIN CREACIÓN DE INSTANCIA ===
+
+2025-06-06T18:00:57: Obteniendo todas las instancias...
+2025-06-06T18:00:57: 1 instancias encontradas
+2025-06-06T18:01:13: [Psic. Fernanda mejia] Loading: 100% - WhatsApp
+2025-06-06T18:01:21: 
+=== Psic. Fernanda mejia CONECTADA ===
+2025-06-06T18:01:21: Actualizando estado de la instancia...
+2025-06-06T18:01:21: Estado actualizado a connected
+2025-06-06T18:01:21: Emitiendo evento ready...
+2025-06-06T18:01:21: 
+=== WEBHOOK EMITTER: EVENTO READY ===
+2025-06-06T18:01:21: Datos recibidos: {
+  "instanceId": "ffa3fd61-383f-43ad-a217-79ebe957ad8e",
+  "instanceName": "Psic. Fernanda mejia"
+}
+2025-06-06T18:01:21: Número de listeners: 1
+2025-06-06T18:01:21: Evento ready emitido
+2025-06-06T18:01:21: Obteniendo todas las instancias...
+2025-06-06T18:01:21: 1 instancias encontradas
+2025-06-06T18:01:37: 
+=== ACTUALIZANDO INSTANCIA ===
+2025-06-06T18:01:37: ID: ffa3fd61-383f-43ad-a217-79ebe957ad8e
+2025-06-06T18:01:37: Actualizaciones: {
+  "chatwootInboxId": 10,
+  "chatwootInboxName": "WhatsApp Inbox",
+  "chatwootAccountId": "1",
+  "chatwootApiToken": "3HTSPEDGie3GUsSS1pZEved4"
+}
+2025-06-06T18:01:37: Instancia actual: {
+  "dataDir": "D:\\Abraham\\Proyects\\PixelityStudios\\Evo\\data",
+  "instancesFile": "D:\\Abraham\\Proyects\\PixelityStudios\\Evo\\data\\instances.json",
+  "instances": {},
+  "initialized": false,
+  "id": "ffa3fd61-383f-43ad-a217-79ebe957ad8e",
+  "name": "Psic. Fernanda mejia",
+  "status": "connected",
+  "qr": "2@Rd/othk71vfwPGM2z07bA/q/WXMJ7an6i7K9V4M/mOeWsSF1yj6EeYCm0MaIAhz2YW4W2+0CJK/xJTtYboREMMbZiejVrEzFe0U=,s0Sxdn9x0WGujM0NR4lvSxlqIrxfYB5u5AQhXFsMKxk=,nL3sYyxdDzuJn/YJGb3pr2wMXtqRjtU6M15kK+PMilk=,bz7DFL+Xo0g+TEzNfVPNe2QhTR5+tuzPkPGCHuvv1fo=,1",
+  "chatwootInboxId": null,
+  "chatwootWebhookId": null,
+  "chatwootInboxName": null,
+  "chatwootAccountId": null,
+  "chatwootApiToken": null,
+  "createdAt": "2025-06-07T00:00:47.908Z",
+  "updatedAt": "2025-06-07T00:01:21.237Z"
+}
+2025-06-06T18:01:37: Instancia actualizada: {
+  "id": "ffa3fd61-383f-43ad-a217-79ebe957ad8e",
+  "name": "Psic. Fernanda mejia",
+  "status": "connected",
+  "qr": "2@Rd/othk71vfwPGM2z07bA/q/WXMJ7an6i7K9V4M/mOeWsSF1yj6EeYCm0MaIAhz2YW4W2+0CJK/xJTtYboREMMbZiejVrEzFe0U=,s0Sxdn9x0WGujM0NR4lvSxlqIrxfYB5u5AQhXFsMKxk=,nL3sYyxdDzuJn/YJGb3pr2wMXtqRjtU6M15kK+PMilk=,bz7DFL+Xo0g+TEzNfVPNe2QhTR5+tuzPkPGCHuvv1fo=,1",
+  "chatwootInboxId": 10,
+  "chatwootWebhookId": null,
+  "chatwootInboxName": "WhatsApp Inbox",
+  "chatwootAccountId": "1",
+  "chatwootApiToken": "3HTSPEDGie3GUsSS1pZEved4",
+  "createdAt": "2025-06-07T00:00:47.908Z",
+  "updatedAt": "2025-06-07T00:01:37.521Z"
+}
+2025-06-06T18:01:42: Obteniendo todas las instancias...
+2025-06-06T18:01:42: 1 instancias encontradas
+2025-06-06T18:02:24: Inicializando base de datos de instancias...
+2025-06-06T18:02:24: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T18:02:24: === WEBHOOK EMITTER INICIALIZADO ===
+2025-06-06T18:02:24: Eventos configurados: [ 'qr', 'ready', 'disconnected', 'auth_failure', 'error' ]
+2025-06-06T18:02:25: === INSTANCE CONTROLLER INICIALIZADO ===
+2025-06-06T18:02:25: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-06T18:02:25: Inicializando base de datos de instancias...
+2025-06-06T18:02:25: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T18:02:25: Configurando instanceController con webhookEmitter...
+2025-06-06T18:02:25: instanceController configurado con webhookEmitter
+2025-06-06T18:02:25: Servidor corriendo en el puerto 3001
+2025-06-06T18:02:25: Iniciando reconexión de instancias existentes...
+2025-06-06T18:02:25: === INICIALIZANDO INSTANCIAS EXISTENTES ===
+2025-06-06T18:02:25: Inicializando base de datos de instancias...
+2025-06-06T18:02:25: Ruta del archivo: D:\Abraham\Proyects\PixelityStudios\Evo\data\instances.json
+2025-06-06T18:02:25: Base de datos inicializada con 1 instancias
+2025-06-06T18:02:25: Instancias cargadas:
+2025-06-06T18:02:25: Psic. Fernanda mejia (ffa3fd61-383f-43ad-a217-79ebe957ad8e)
+2025-06-06T18:02:25: Base de datos inicializada con 1 instancias
+2025-06-06T18:02:25: Instancias cargadas:
+2025-06-06T18:02:25: Psic. Fernanda mejia (ffa3fd61-383f-43ad-a217-79ebe957ad8e)
+2025-06-06T18:02:25: Obteniendo todas las instancias...
+2025-06-06T18:02:25: 1 instancias encontradas
+2025-06-06T18:02:25: Instancias encontradas en la base de datos: 1
+2025-06-06T18:02:25: 
+Procesando instancia: Psic. Fernanda mejia (ffa3fd61-383f-43ad-a217-79ebe957ad8e)
+2025-06-06T18:02:25: Estado actual: connected
+2025-06-06T18:02:25: Creando nuevo cliente...
+2025-06-06T18:02:25: Cliente guardado en el mapa de instancias
+2025-06-06T18:02:25: Base de datos inicializada con 1 instancias
+2025-06-06T18:02:25: Instancias cargadas:
+2025-06-06T18:02:25: Psic. Fernanda mejia (ffa3fd61-383f-43ad-a217-79ebe957ad8e)
+2025-06-06T18:02:25: Obteniendo todas las instancias...
+2025-06-06T18:02:25: 1 instancias encontradas
+2025-06-06T18:02:25: Instancias encontradas en la base de datos: 1
+2025-06-06T18:02:25: 
+Procesando instancia: Psic. Fernanda mejia (ffa3fd61-383f-43ad-a217-79ebe957ad8e)
+2025-06-06T18:02:25: Estado actual: connected
+2025-06-06T18:02:25: Creando nuevo cliente...
+2025-06-06T18:02:25: Cliente guardado en el mapa de instancias
+2025-06-06T18:02:25: Estado actualizado a connecting
+2025-06-06T18:02:25: Iniciando cliente...
+2025-06-06T18:02:25: Estado actualizado a connecting
+2025-06-06T18:02:25: Iniciando cliente...
+2025-06-06T18:02:25: 
+Error al inicializar instancia Psic. Fernanda mejia: Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+    at onClose (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserRunner.js:299:20)
+    at ChildProcess.<anonymous> (D:\Abraham\Proyects\PixelityStudios\Evo\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserRunner.js:290:24)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2025-06-06T18:02:25: 
+=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===
+2025-06-06T18:02:25: Total de instancias procesadas: 1
+2025-06-06T18:02:25: Instancias en el mapa: 1
+2025-06-06T18:02:30: Cliente iniciado exitosamente
+2025-06-06T18:02:30: 
+=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===
+2025-06-06T18:02:30: Total de instancias procesadas: 1
+2025-06-06T18:02:30: Instancias en el mapa: 1
+2025-06-06T18:02:30: [Psic. Fernanda mejia] Loading: 100% - WhatsApp
+2025-06-06T18:02:30: 
+=== Psic. Fernanda mejia CONECTADA ===
+2025-06-06T18:02:39: MENSAJE EVENTO DISPARADO Message {
+  _data: {
+    id: {
+      fromMe: false,
+      remote: '5214771118947@c.us',
+      id: '309DE48865A7DDB49C70D2DC64B1B0BB',
+      _serialized: 'false_5214771118947@c.us_309DE48865A7DDB49C70D2DC64B1B0BB'
+    },
+    viewed: false,
+    body: 'Hola',
+    type: 'chat',
+    t: 1749254558,
+    notifyName: 'Abraham Huerta',
+    from: '5214771118947@c.us',
+    to: '5214779056675@c.us',
+    ack: 1,
+    invis: false,
+    isNewMsg: true,
+    star: false,
+    kicNotified: false,
+    recvFresh: true,
+    isFromTemplate: false,
+    pollInvalidated: false,
+    isSentCagPollCreation: false,
+    latestEditMsgKey: null,
+    latestEditSenderTimestampMs: null,
+    mentionedJidList: [],
+    groupMentions: [],
+    isEventCanceled: false,
+    eventInvalidated: false,
+    isVcardOverMmsDocument: false,
+    isForwarded: false,
+    labels: [],
+    hasReaction: false,
+    viewMode: 'VISIBLE',
+    messageSecret: {
+      '0': 22,
+      '1': 1,
+      '2': 29,
+      '3': 30,
+      '4': 76,
+      '5': 8,
+      '6': 146,
+      '7': 35,
+      '8': 59,
+      '9': 191,
+      '10': 198,
+      '11': 82,
+      '12': 86,
+      '13': 120,
+      '14': 106,
+      '15': 9,
+      '16': 64,
+      '17': 141,
+      '18': 95,
+      '19': 194,
+      '20': 24,
+      '21': 159,
+      '22': 241,
+      '23': 127,
+      '24': 201,
+      '25': 130,
+      '26': 143,
+      '27': 9,
+      '28': 15,
+      '29': 125,
+      '30': 199,
+      '31': 119
+    },
+    productHeaderImageRejected: false,
+    lastPlaybackProgress: 0,
+    isDynamicReplyButtonsMsg: false,
+    isCarouselCard: false,
+    parentMsgId: null,
+    callSilenceReason: null,
+    isVideoCall: false,
+    callDuration: null,
+    callCreator: null,
+    callParticipants: null,
+    isCallLink: null,
+    callLinkToken: null,
+    isMdHistoryMsg: false,
+    stickerSentTs: 0,
+    isAvatar: false,
+    lastUpdateFromServerTs: 0,
+    invokedBotWid: null,
+    bizBotType: null,
+    botResponseTargetId: null,
+    botPluginType: null,
+    botPluginReferenceIndex: null,
+    botPluginSearchProvider: null,
+    botPluginSearchUrl: null,
+    botPluginSearchQuery: null,
+    botPluginMaybeParent: false,
+    botReelPluginThumbnailCdnUrl: null,
+    botMessageDisclaimerText: null,
+    botMsgBodyType: null,
+    reportingTokenInfo: { reportingToken: [Object], version: 2, reportingTag: [Object] },
+    requiresDirectConnection: null,
+    bizContentPlaceholderType: null,
+    hostedBizEncStateMismatch: false,
+    senderOrRecipientAccountTypeHosted: false,
+    placeholderCreatedWhenAccountIsHosted: false,
+    links: []
+  },
+  mediaKey: undefined,
+  id: {
+    fromMe: false,
+    remote: '5214771118947@c.us',
+    id: '309DE48865A7DDB49C70D2DC64B1B0BB',
+    _serialized: 'false_5214771118947@c.us_309DE48865A7DDB49C70D2DC64B1B0BB'
+  },
+  ack: 1,
+  hasMedia: false,
+  body: 'Hola',
+  type: 'chat',
+  timestamp: 1749254558,
+  from: '5214771118947@c.us',
+  to: '5214779056675@c.us',
+  author: undefined,
+  deviceType: 'android',
+  isForwarded: false,
+  forwardingScore: 0,
+  isStatus: false,
+  isStarred: false,
+  broadcast: undefined,
+  fromMe: false,
+  hasQuotedMsg: false,
+  hasReaction: false,
+  duration: undefined,
+  location: undefined,
+  vCards: [],
+  inviteV4: undefined,
+  mentionedIds: [],
+  groupMentions: [],
+  orderId: undefined,
+  token: undefined,
+  isGif: false,
+  isEphemeral: undefined,
+  links: []
+}
+2025-06-06T18:02:39: 
+=== MENSAJE RECIBIDO EN Psic. Fernanda mejia ===
+2025-06-06T18:02:39: De: 5214771118947@c.us
+2025-06-06T18:02:39: Contenido: Hola
+2025-06-06T18:02:39: Enviando mensaje a Chatwoot...
+2025-06-06T18:02:39: === MANEJANDO MENSAJE DE WHATSAPP ===
+2025-06-06T18:02:39: ID de instancia: ffa3fd61-383f-43ad-a217-79ebe957ad8e
+2025-06-06T18:02:39: Mensaje recibido: Message {
+  _data: {
+    id: {
+      fromMe: false,
+      remote: '5214771118947@c.us',
+      id: '309DE48865A7DDB49C70D2DC64B1B0BB',
+      _serialized: 'false_5214771118947@c.us_309DE48865A7DDB49C70D2DC64B1B0BB'
+    },
+    viewed: false,
+    body: 'Hola',
+    type: 'chat',
+    t: 1749254558,
+    notifyName: 'Abraham Huerta',
+    from: '5214771118947@c.us',
+    to: '5214779056675@c.us',
+    ack: 1,
+    invis: false,
+    isNewMsg: true,
+    star: false,
+    kicNotified: false,
+    recvFresh: true,
+    isFromTemplate: false,
+    pollInvalidated: false,
+    isSentCagPollCreation: false,
+    latestEditMsgKey: null,
+    latestEditSenderTimestampMs: null,
+    mentionedJidList: [],
+    groupMentions: [],
+    isEventCanceled: false,
+    eventInvalidated: false,
+    isVcardOverMmsDocument: false,
+    isForwarded: false,
+    labels: [],
+    hasReaction: false,
+    viewMode: 'VISIBLE',
+    messageSecret: {
+      '0': 22,
+      '1': 1,
+      '2': 29,
+      '3': 30,
+      '4': 76,
+      '5': 8,
+      '6': 146,
+      '7': 35,
+      '8': 59,
+      '9': 191,
+      '10': 198,
+      '11': 82,
+      '12': 86,
+      '13': 120,
+      '14': 106,
+      '15': 9,
+      '16': 64,
+      '17': 141,
+      '18': 95,
+      '19': 194,
+      '20': 24,
+      '21': 159,
+      '22': 241,
+      '23': 127,
+      '24': 201,
+      '25': 130,
+      '26': 143,
+      '27': 9,
+      '28': 15,
+      '29': 125,
+      '30': 199,
+      '31': 119
+    },
+    productHeaderImageRejected: false,
+    lastPlaybackProgress: 0,
+    isDynamicReplyButtonsMsg: false,
+    isCarouselCard: false,
+    parentMsgId: null,
+    callSilenceReason: null,
+    isVideoCall: false,
+    callDuration: null,
+    callCreator: null,
+    callParticipants: null,
+    isCallLink: null,
+    callLinkToken: null,
+    isMdHistoryMsg: false,
+    stickerSentTs: 0,
+    isAvatar: false,
+    lastUpdateFromServerTs: 0,
+    invokedBotWid: null,
+    bizBotType: null,
+    botResponseTargetId: null,
+    botPluginType: null,
+    botPluginReferenceIndex: null,
+    botPluginSearchProvider: null,
+    botPluginSearchUrl: null,
+    botPluginSearchQuery: null,
+    botPluginMaybeParent: false,
+    botReelPluginThumbnailCdnUrl: null,
+    botMessageDisclaimerText: null,
+    botMsgBodyType: null,
+    reportingTokenInfo: { reportingToken: [Object], version: 2, reportingTag: [Object] },
+    requiresDirectConnection: null,
+    bizContentPlaceholderType: null,
+    hostedBizEncStateMismatch: false,
+    senderOrRecipientAccountTypeHosted: false,
+    placeholderCreatedWhenAccountIsHosted: false,
+    links: []
+  },
+  mediaKey: undefined,
+  id: {
+    fromMe: false,
+    remote: '5214771118947@c.us',
+    id: '309DE48865A7DDB49C70D2DC64B1B0BB',
+    _serialized: 'false_5214771118947@c.us_309DE48865A7DDB49C70D2DC64B1B0BB'
+  },
+  ack: 1,
+  hasMedia: false,
+  body: 'Hola',
+  type: 'chat',
+  timestamp: 1749254558,
+  from: '5214771118947@c.us',
+  to: '5214779056675@c.us',
+  author: undefined,
+  deviceType: 'android',
+  isForwarded: false,
+  forwardingScore: 0,
+  isStatus: false,
+  isStarred: false,
+  broadcast: undefined,
+  fromMe: false,
+  hasQuotedMsg: false,
+  hasReaction: false,
+  duration: undefined,
+  location: undefined,
+  vCards: [],
+  inviteV4: undefined,
+  mentionedIds: [],
+  groupMentions: [],
+  orderId: undefined,
+  token: undefined,
+  isGif: false,
+  isEphemeral: undefined,
+  links: []
+}
+2025-06-06T18:02:39: Configuración de Chatwoot: { inboxId: 10, accountId: '1', hasApiToken: true }
+2025-06-06T18:02:39: Número de teléfono: 5214771118947
+2025-06-06T18:02:39: === BUSCANDO/CREANDO CONTACTO ===
+2025-06-06T18:02:39: Número original: 5214771118947
+2025-06-06T18:02:39: Número formateado: +5214771118947
+2025-06-06T18:02:39: Respuesta de búsqueda: {
+  "meta": {
+    "count": 1,
+    "current_page": 1
+  },
+  "payload": [
+    {
+      "additional_attributes": {},
+      "availability_status": "offline",
+      "email": null,
+      "id": 14,
+      "name": "WhatsApp +5214771118947",
+      "phone_number": "+5214771118947",
+      "blocked": false,
+      "identifier": null,
+      "thumbnail": "",
+      "custom_attributes": {
+        "source": "whatsapp"
+      },
+      "last_activity_at": 1749253682,
+      "created_at": 1749082851,
+      "contact_inboxes": []
+    }
+  ]
+}
+2025-06-06T18:02:39: Contacto existente encontrado
+2025-06-06T18:02:39: Contacto encontrado/creado: {
+  contact: {
+    additional_attributes: {},
+    availability_status: 'offline',
+    email: null,
+    id: 14,
+    name: 'WhatsApp +5214771118947',
+    phone_number: '+5214771118947',
+    blocked: false,
+    identifier: null,
+    thumbnail: '',
+    custom_attributes: { source: 'whatsapp' },
+    last_activity_at: 1749253682,
+    created_at: 1749082851,
+    contact_inboxes: []
+  }
+}
+2025-06-06T18:02:39: ID del contacto: 14
+2025-06-06T18:02:39: === BUSCANDO/CREANDO CONVERSACIÓN ===
+2025-06-06T18:02:39: Account ID: 1
+2025-06-06T18:02:39: Inbox ID: 10
+2025-06-06T18:02:39: Contact ID: 14
+2025-06-06T18:02:40: Respuesta de búsqueda: {
+  "data": {
+    "meta": {
+      "mine_count": 0,
+      "assigned_count": 0,
+      "unassigned_count": 0,
+      "all_count": 0
+    },
+    "payload": []
+  }
+}
+2025-06-06T18:02:40: Creando nueva conversación...
+2025-06-06T18:02:40: Payload de creación: {
+  "inbox_id": 10,
+  "contact_id": 14,
+  "source": "api",
+  "status": "open",
+  "additional_attributes": {
+    "source": "whatsapp"
+  }
+}
+2025-06-06T18:02:40: Respuesta de creación: {
+  "meta": {
+    "sender": {
+      "additional_attributes": {},
+      "availability_status": "offline",
+      "email": null,
+      "id": 14,
+      "name": "WhatsApp +5214771118947",
+      "phone_number": "+5214771118947",
+      "blocked": false,
+      "identifier": null,
+      "thumbnail": "",
+      "custom_attributes": {
+        "source": "whatsapp"
+      },
+      "last_activity_at": 1749253682,
+      "created_at": 1749082851
+    },
+    "channel": "Channel::Api",
+    "hmac_verified": false
+  },
+  "id": 15,
+  "messages": [],
+  "account_id": 1,
+  "uuid": "05d78970-4061-472f-9967-878e45fc5b00",
+  "additional_attributes": {
+    "source": "whatsapp"
+  },
+  "agent_last_seen_at": 0,
+  "assignee_last_seen_at": 0,
+  "can_reply": true,
+  "contact_last_seen_at": 0,
+  "custom_attributes": {},
+  "inbox_id": 10,
+  "labels": [],
+  "muted": false,
+  "snoozed_until": null,
+  "status": "open",
+  "created_at": 1749254559,
+  "updated_at": 1749254559.488207,
+  "timestamp": 1749254559,
+  "first_reply_created_at": 0,
+  "unread_count": 0,
+  "last_non_activity_message": null,
+  "last_activity_at": 1749254559,
+  "priority": null,
+  "waiting_since": 1749254559,
+  "sla_policy_id": null
+}
+2025-06-06T18:02:40: Conversación creada exitosamente
+2025-06-06T18:02:40: Conversación encontrada/creada: {
+  conversation: {
+    meta: { sender: [Object], channel: 'Channel::Api', hmac_verified: false },
+    id: 15,
+    messages: [],
+    account_id: 1,
+    uuid: '05d78970-4061-472f-9967-878e45fc5b00',
+    additional_attributes: { source: 'whatsapp' },
+    agent_last_seen_at: 0,
+    assignee_last_seen_at: 0,
+    can_reply: true,
+    contact_last_seen_at: 0,
+    custom_attributes: {},
+    inbox_id: 10,
+    labels: [],
+    muted: false,
+    snoozed_until: null,
+    status: 'open',
+    created_at: 1749254559,
+    updated_at: 1749254559.488207,
+    timestamp: 1749254559,
+    first_reply_created_at: 0,
+    unread_count: 0,
+    last_non_activity_message: null,
+    last_activity_at: 1749254559,
+    priority: null,
+    waiting_since: 1749254559,
+    sla_policy_id: null
+  }
+}
+2025-06-06T18:02:40: ID de la conversación: 15
+2025-06-06T18:02:40: Contenido del mensaje: Hola
+2025-06-06T18:02:40: Archivos adjuntos: 0
+2025-06-06T18:02:40: Enviando mensaje a Chatwoot: {
+  content: 'Hola',
+  message_type: 'incoming',
+  private: false,
+  account_id: '1',
+  attachments: [],
+  api_access_token: '3HTSPEDGie3GUsSS1pZEved4'
+}
+2025-06-06T18:02:40: === CREANDO MENSAJE ===
+2025-06-06T18:02:40: Conversation ID: 15
+2025-06-06T18:02:40: Contenido: Hola
+2025-06-06T18:02:40: Archivos adjuntos: 0
+2025-06-06T18:02:40: Enviando mensaje sin archivos adjuntos...
+2025-06-06T18:02:40: Respuesta de Chatwoot: {
+  id: 830,
+  content: 'Hola',
+  inbox_id: 10,
+  conversation_id: 15,
+  message_type: 0,
+  content_type: 'text',
+  status: 'sent',
+  content_attributes: {},
+  created_at: 1749254559,
+  private: false,
+  source_id: null,
+  sender: {
+    additional_attributes: {},
+    custom_attributes: { source: 'whatsapp' },
+    email: null,
+    id: 14,
+    identifier: null,
+    name: 'WhatsApp +5214771118947',
+    phone_number: '+5214771118947',
+    thumbnail: '',
+    blocked: false,
+    type: 'contact'
+  }
+}
+2025-06-06T18:03:06: Obteniendo todas las instancias...
+2025-06-06T18:03:06: 1 instancias encontradas
+2025-06-06T18:03:20: Obteniendo todas las instancias...
+2025-06-06T18:03:20: 1 instancias encontradas

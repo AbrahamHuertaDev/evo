@@ -1,0 +1,4 @@
+body, :host {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f3f6fa 0%, #e0e7ff 100%);
+}

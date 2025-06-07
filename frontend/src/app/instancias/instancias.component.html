@@ -1,0 +1,59 @@
+<div class="instancias-container">
+  <div class="header">
+    <h2>Instancias de WhatsApp</h2>
+    <button class="btn-primary" (click)="showCreateForm = !showCreateForm">
+      {{ showCreateForm ? 'Cancelar' : 'Nueva Instancia' }}
+    </button>
+  </div>
+
+  <div *ngIf="showCreateForm" class="create-form">
+    <div class="form-group">
+      <label for="instanceName">Nombre de la instancia:</label>
+      <input 
+        type="text" 
+        id="instanceName" 
+        [(ngModel)]="newInstanceName" 
+        placeholder="Ingrese el nombre de la instancia"
+        (keyup.enter)="crearInstancia()"
+      >
+    </div>
+    <button class="btn-primary" (click)="crearInstancia()" [disabled]="!newInstanceName.trim()">
+      Crear Instancia
+    </button>
+  </div>
+
+  <div *ngIf="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Cargando instancias...</p>
+  </div>
+
+  <div *ngIf="error" class="error-message">
+    {{ error }}
+  </div>
+
+  <div *ngIf="!loading && !instancias.length && !error" class="no-instances">
+    <p>No hay instancias registradas.</p>
+    <p>Haga clic en "Nueva Instancia" para crear una.</p>
+  </div>
+
+  <div *ngIf="!loading && instancias.length" class="instances-grid">
+    <div *ngFor="let inst of instancias" class="instance-card">
+      <div class="instance-header">
+        <h3>{{ inst.name }}</h3>
+        <span class="status-badge" [ngClass]="getStatusClass(inst.status)">
+          {{ inst.status }}
+        </span>
+      </div>
+      
+      <div class="instance-details">
+        <p><strong>ID:</strong> {{ inst.id }}</p>
+        <p><strong>Creada:</strong> {{ inst.createdAt | date:'short' }}</p>
+        <p><strong>Última actualización:</strong> {{ inst.updatedAt | date:'short' }}</p>
+      </div>
+
+      <div class="instance-actions">
+        <button class="btn-action" (click)="verInstancia(inst)">Ver Detalles</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,107 @@
+<div class="detalle-container">
+  <div *ngIf="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Cargando detalles de la instancia...</p>
+  </div>
+
+  <div *ngIf="error" class="error-message">
+    {{ error }}
+  </div>
+
+  <div *ngIf="!loading && instancia" class="detalle-content">
+    <div class="header">
+      <h2>{{ instancia.name }}</h2>
+      <div class="actions">
+        <button class="btn-action delete" (click)="eliminarInstancia()">Eliminar Instancia</button>
+      </div>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>Información General</h3>
+        <div class="info-item">
+          <span class="label">Nombre:</span>
+          <span class="value">{{ instancia.name }}</span>
+        </div>
+        <div class="info-item">
+          <span class="label">ID:</span>
+          <span class="value">{{ instancia.id }}</span>
+        </div>
+        <div class="info-item">
+          <span class="label">Estado:</span>
+          <span class="value status-badge" [ngClass]="getStatusClass(instancia.status)">
+            {{ instancia.status }}
+          </span>
+        </div>
+        <div class="info-item">
+          <span class="label">Creada:</span>
+          <span class="value">{{ instancia.createdAt | date:'medium' }}</span>
+        </div>
+        <div class="info-item">
+          <span class="label">Última actualización:</span>
+          <span class="value">{{ instancia.updatedAt | date:'medium' }}</span>
+        </div>
+      </div>
+
+      <div class="info-card" *ngIf="mensajes.length">
+        <h3>Mensajes Recibidos</h3>
+        <div class="mensaje" *ngFor="let msg of mensajes">
+          <div><strong>De:</strong> {{ msg.from }}</div>
+          <div><strong>Mensaje:</strong> {{ msg.body }}</div>
+          <div><small>{{ msg.timestamp | date:'short' }}</small></div>
+          <hr />
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h3>Configuración de Chatwoot</h3>
+        <div *ngIf="!showChatwootForm">
+          <div class="info-item" *ngIf="instancia.chatwootInboxId">
+            <span class="label">ID del Inbox:</span>
+            <span class="value">{{ instancia.chatwootInboxId }}</span>
+          </div>
+          <div class="info-item" *ngIf="instancia.chatwootApiToken">
+            <span class="label">API Token:</span>
+            <span class="value">{{ instancia.chatwootApiToken | slice:0:8 }}...</span>
+          </div>
+          <button class="btn-action" (click)="showChatwootForm = true">
+            {{ instancia.chatwootInboxId ? 'Editar Configuración' : 'Configurar Chatwoot' }}
+          </button>
+        </div>
+
+        <div *ngIf="showChatwootForm" class="chatwoot-form">
+          <div class="form-group">
+            <label for="inboxId">ID del Inbox:</label>
+            <input 
+              type="text" 
+              id="inboxId" 
+              [(ngModel)]="chatwootConfig.inboxId" 
+              placeholder="Ingrese el ID del inbox"
+            >
+          </div>
+          <div class="form-group">
+            <label for="apiToken">API Token:</label>
+            <input 
+              type="text" 
+              id="apiToken" 
+              [(ngModel)]="chatwootConfig.apiToken" 
+              placeholder="Ingrese el API token"
+            >
+          </div>
+          <div class="form-actions">
+            <button class="btn-action" (click)="actualizarChatwoot()">Guardar</button>
+            <button class="btn-action" (click)="showChatwootForm = false">Cancelar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card qr-section" *ngIf="qrImage">
+        <h3>Código QR</h3>
+        <p>Escanea este código QR con WhatsApp para conectar la instancia</p>
+        <div class="qr-container">
+          <img [src]="qrImage" alt="QR de la instancia" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
