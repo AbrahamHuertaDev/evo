@@ -39,22 +39,31 @@ class InstanceController extends EventEmitter {
                     console.log('Creando nuevo cliente...');
                     const client = new Client({
                         puppeteer: {
-                            headless: true,
-                            //executablePath: process.platform === 'win32' 
-                            //    ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
-                            //    : '/usr/bin/google-chrome',
-                            executablePath:  '/usr/bin/google-chrome',
+                            headless: 'new', // o true si estás en puppeteer <21
+                            executablePath: '/usr/bin/google-chrome', // asegúrate que exista ese path
                             args: [
-                                '--no-sandbox',
-                                '--disable-setuid-sandbox',
-                                '--disable-gpu',
-                                '--disable-dev-shm-usage',
-                                '--disable-accelerated-2d-canvas',
-                                '--no-zygote',
-                                '--single-process',
-                                '--disable-dev-tools',
-                                '--no-first-run',
-                                '--no-default-browser-check',
+                              '--no-sandbox',
+                              '--disable-setuid-sandbox',
+                              '--disable-dev-shm-usage',
+                              '--disable-gpu',
+                              '--disable-accelerated-2d-canvas',
+                              '--no-zygote',
+                              '--single-process',
+                              '--no-first-run',
+                              '--no-default-browser-check',
+                              '--disable-background-networking',
+                              '--disable-client-side-phishing-detection',
+                              '--disable-component-update',
+                              '--disable-default-apps',
+                              '--disable-hang-monitor',
+                              '--disable-popup-blocking',
+                              '--disable-prompt-on-repost',
+                              '--disable-sync',
+                              '--disable-translate',
+                              '--metrics-recording-only',
+                              '--mute-audio',
+                              '--no-sandbox',
+                              '--safebrowsing-disable-auto-update'
                             ],
                             ignoreHTTPSErrors: true,
                             timeout: 60000
