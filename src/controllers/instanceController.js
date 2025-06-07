@@ -39,10 +39,11 @@ class InstanceController extends EventEmitter {
                     console.log('Creando nuevo cliente...');
                     const client = new Client({
                         puppeteer: {
-                            headless: false,
-                            executablePath: process.platform === 'win32' 
-                                ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
-                                : '/usr/bin/google-chrome',
+                            headless: true,
+                            //executablePath: process.platform === 'win32' 
+                            //    ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+                            //    : '/usr/bin/google-chrome',
+                            executablePath:  '/usr/bin/google-chrome',
                             args: [
                                 '--no-sandbox',
                                 '--disable-setuid-sandbox',
