@@ -787,24 +787,26 @@ class InstanceController extends EventEmitter {
                 return;
             }
             
-            // Extraer el número de teléfono del contacto
-            const phoneNumber = message.conversation.meta.sender.phone_number.replace('+', '') + '@c.us';
-            const messageContent = message.conversation.messages[0].content;
-
-            if (!phoneNumber || !messageContent) {
-                console.log('Número de teléfono o contenido del mensaje no encontrado');
-                return;
-            }
-
-            // Verificar si el número es válido
-            if (!phoneNumber.match(/^\d+@c\.us$/)) {
-                console.log('Formato de número de teléfono inválido:', phoneNumber);
-                return;
-            }
-
-            console.log('Intentando enviar mensaje a:', phoneNumber);
-            await client.sendMessage(phoneNumber, messageContent);
-            console.log('Mensaje enviado exitosamente a:', phoneNumber);
+           if(message.message_type === "outgoing"){
+             // Extraer el número de teléfono del contacto
+             const phoneNumber = message.conversation.meta.sender.phone_number.replace('+', '') + '@c.us';
+             const messageContent = message.conversation.messages[0].content;
+ 
+             if (!phoneNumber || !messageContent) {
+                 console.log('Número de teléfono o contenido del mensaje no encontrado');
+                 return;
+             }
+ 
+             // Verificar si el número es válido
+             if (!phoneNumber.match(/^\d+@c\.us$/)) {
+                 console.log('Formato de número de teléfono inválido:', phoneNumber);
+                 return;
+             }
+ 
+             console.log('Intentando enviar mensaje a:', phoneNumber);
+             await client.sendMessage(phoneNumber, messageContent);
+             console.log('Mensaje enviado exitosamente a:', phoneNumber);
+           }
         } catch (error) {
             console.error('Error detallado al enviar mensaje:', {
                 error: error.message,
