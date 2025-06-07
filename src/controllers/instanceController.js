@@ -109,24 +109,24 @@ class InstanceController extends EventEmitter {
                         }
                     });
 
+                    client.on('disconnected', async (reason) => {
+                        console.log(`\n=== ${instance.name} DESCONECTADA ===`);
+                        console.log('Razón:', reason);
+                        await Instance.updateInstanceStatus(instance.id, 'disconnected');
+                        emitInstanceEvent('status', instance.id, { status: 'disconnected' });
+                    });
+
+                    client.on('auth_failure', async (error) => {
+                        console.log(`\n=== ERROR DE AUTENTICACIÓN EN ${instance.name} ===`);
+                        console.log('Error:', error);
+                        await Instance.updateInstanceStatus(instance.id, 'auth_failed');
+                        emitInstanceEvent('status', instance.id, { status: 'auth_failed' });
+                    });
+
                     client.on('ready', async () => {
                         console.log(`\n=== ${instance.name} CONECTADA ===`);
                         await Instance.updateInstanceStatus(instance.id, 'connected');
                         emitInstanceEvent('status', instance.id, { status: 'connected' });
-                        client.on('disconnected', async (reason) => {
-                            console.log(`\n=== ${instance.name} DESCONECTADA ===`);
-                            console.log('Razón:', reason);
-                            await Instance.updateInstanceStatus(instance.id, 'disconnected');
-                            emitInstanceEvent('status', instance.id, { status: 'disconnected' });
-                        });
-    
-                        client.on('auth_failure', async (error) => {
-                            console.log(`\n=== ERROR DE AUTENTICACIÓN EN ${instance.name} ===`);
-                            console.log('Error:', error);
-                            await Instance.updateInstanceStatus(instance.id, 'auth_failed');
-                            emitInstanceEvent('status', instance.id, { status: 'auth_failed' });
-                        });
-    
                         // Configurar evento de mensajes
                         client.on('message', async (message) => {
                             console.log('MENSAJE EVENTO DISPARADO', message);
@@ -170,13 +170,16 @@ class InstanceController extends EventEmitter {
                         // Actualizar estado antes de iniciar
                         await Instance.updateInstanceStatus(instance.id, 'connecting');
                         console.log('Estado actualizado a connecting');
-                        
-                        // Iniciar la conexión
-                        console.log('Iniciando cliente...');
-                        await client.initialize();
-                        console.log('Cliente iniciado exitosamente');
                     });
-
+                    
+                    // Iniciar la conexión
+                    console.log('Iniciando cliente...');
+                    await client.initialize();
+                    console.log('Cliente iniciado exitosamente');
+                    
+                    console.log('\n=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===');
+                    console.log(`Total de instancias procesadas: ${instances.length}`);
+                    console.log(`Instancias en el mapa: ${this.bots.size}`);
                     
                 } catch (error) {
                     console.error(`\nError al inicializar instancia ${instance.name}:`, error);
@@ -184,9 +187,6 @@ class InstanceController extends EventEmitter {
                 }
             }
             
-            console.log('\n=== FINALIZADA INICIALIZACIÓN DE INSTANCIAS ===');
-            console.log(`Total de instancias procesadas: ${instances.length}`);
-            console.log(`Instancias en el mapa: ${this.bots.size}`);
         } catch (error) {
             console.error('Error al inicializar instancias:', error);
         }
