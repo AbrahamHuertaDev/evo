@@ -777,11 +777,21 @@ class InstanceController extends EventEmitter {
             return;
         }
         
-        //await client.sendMessage(message.from, message.body);
+        // Extraer el número de teléfono del contacto
+        const phoneNumber = message.conversation.meta.sender.phone_number + '@c.us';
+        const messageContent = message.conversation.messages[0].content;
 
-        console.log(JSON.stringify(message, null, 2));
+        if (!phoneNumber || !messageContent) {
+            console.log('Número de teléfono o contenido del mensaje no encontrado');
+            return;
+        }
 
-        console.log('Mensaje enviado');
+        try {
+            await client.sendMessage(phoneNumber, messageContent);
+            console.log('Mensaje enviado exitosamente a:', phoneNumber);
+        } catch (error) {
+            console.error('Error al enviar mensaje:', error);
+        }
     }
 
     // Desconectar una instancia
