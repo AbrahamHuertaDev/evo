@@ -765,32 +765,50 @@ class InstanceController extends EventEmitter {
     }
 
     async sendMessage(instanceId, message) {
-        const instance = await Instance.getInstance(instanceId);
-        if (!instance) {
-            console.log('Instancia no encontrada');
-            return;
-        }
-
-        const client = this.bots.get(instanceId);
-        if (!client) {
-            console.log('Cliente no encontrado');
-            return;
-        }
-        
-        // Extraer el número de teléfono del contacto
-        const phoneNumber = message.conversation.meta.sender.phone_number.replace('+', '') + '@c.us';
-        const messageContent = message.conversation.messages[0].content;
-
-        if (!phoneNumber || !messageContent) {
-            console.log('Número de teléfono o contenido del mensaje no encontrado');
-            return;
-        }
-
         try {
+            const instance = await Instance.getInstance(instanceId);
+            if (!instance) {
+                console.log('Instancia no encontrada');
+                return;
+            }
+
+            const client = this.bots.get(instanceId);
+            if (!client) {
+                console.log('Cliente no encontrado');
+                return;
+            }
+
+            // Verificar si el cliente está autenticado
+            if (!client.pupPage) {
+                console.log('Cliente de WhatsApp no está autenticado');
+                return;
+            }
+            
+            // Extraer el número de teléfono del contacto
+            const phoneNumber = message.conversation.meta.sender.phone_number.replace('+', '') + '@c.us';
+            const messageContent = message.conversation.messages[0].content;
+
+            if (!phoneNumber || !messageContent) {
+                console.log('Número de teléfono o contenido del mensaje no encontrado');
+                return;
+            }
+
+            // Verificar si el número es válido
+            if (!phoneNumber.match(/^\d+@c\.us$/)) {
+                console.log('Formato de número de teléfono inválido:', phoneNumber);
+                return;
+            }
+
+            console.log('Intentando enviar mensaje a:', phoneNumber);
             await client.sendMessage(phoneNumber, messageContent);
             console.log('Mensaje enviado exitosamente a:', phoneNumber);
         } catch (error) {
-            console.error('Error al enviar mensaje:', error);
+            console.error('Error detallado al enviar mensaje:', {
+                error: error.message,
+                stack: error.stack,
+                instanceId,
+                message: message?.conversation?.messages?.[0]?.content
+            });
         }
     }
 
