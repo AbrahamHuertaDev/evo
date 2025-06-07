@@ -14,12 +14,12 @@ export class LoginComponent {
   email: string = '';
   password: string = '';
   error: string = '';
-  apiUrl: string = 'http://localhost:3001/api';
+  apiUrl: string = 'https://evolution.pixelitystudios.com/api';
 
   constructor(private http: HttpClient) {
     // Si ya hay token, redirigir a /instancias
     if (localStorage.getItem('token')) {
-      window.location.href = '/instancias';
+      window.location.href = '/#/instancias';
     }
   }
 
@@ -31,7 +31,7 @@ export class LoginComponent {
     }).subscribe({
       next: (res) => {
         localStorage.setItem('token', res.token);
-        window.location.href = '/instancias';
+        window.location.href = '/#/instancias';
       },
       error: (err) => {
         this.error = err.error?.error || 'Error al iniciar sesión';

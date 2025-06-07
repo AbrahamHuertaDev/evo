@@ -90,7 +90,7 @@ export class InstanciasComponent implements OnInit {
       console.error('ID de instancia indefinido:', inst);
       return;
     }
-    this.router.navigate(['/instancias', inst.id]);
+    this.router.navigate(['/#/instancias', inst.id]);
   }
 
   eliminarInstancia(instance: Instance) {
