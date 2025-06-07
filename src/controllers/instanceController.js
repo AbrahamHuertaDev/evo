@@ -40,7 +40,7 @@ class InstanceController extends EventEmitter {
                     const client = new Client({
                         puppeteer: {
                             headless: 'new', // o true si estás en puppeteer <21
-                            executablePath: '/usr/bin/google-chrome', // asegúrate que exista ese path
+                            executablePath: '/usr/bin/chromium-browser', // asegúrate que exista ese path
                             args: [
                               '--no-sandbox',
                               '--disable-setuid-sandbox',
