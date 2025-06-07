@@ -766,6 +766,7 @@ class InstanceController extends EventEmitter {
 
     async sendMessage(instanceId, message) {
         try {
+            console.log(JSON.stringify(message));
             const instance = await Instance.getInstance(instanceId);
             if (!instance) {
                 console.log('Instancia no encontrada');
