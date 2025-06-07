@@ -368,13 +368,9 @@ class ChatwootController {
 
             // Buscar conversación activa
             const searchResponse = await axios.get(
-                `${this.chatwootApiUrl}/api/v1/accounts/${instance.chatwootAccountId}/conversations`,
+                `${this.chatwootApiUrl}/api/v1/accounts/${instance.chatwootAccountId}/contacts/${contactId}/conversations`,
                 {
-                    params: {
-                        inbox_id: instance.chatwootInboxId,
-                        contact_id: contactId,
-                        status: 'open'
-                    },
+                    params: {},
                     headers: {
                         'api_access_token': instance.chatwootApiToken,
                         'Content-Type': 'application/json'
